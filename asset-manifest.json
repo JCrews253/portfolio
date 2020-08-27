@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1309857c.chunk.css",
-    "main.js": "/portfolio/static/js/main.a325ed2c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a325ed2c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1e6cab3d.chunk.css",
+    "main.js": "/portfolio/static/js/main.70cdbe3c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.70cdbe3c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.a9679815.chunk.js": "/portfolio/static/js/2.a9679815.chunk.js",
-    "static/js/2.a9679815.chunk.js.map": "/portfolio/static/js/2.a9679815.chunk.js.map",
+    "static/js/2.bdc0b671.chunk.js": "/portfolio/static/js/2.bdc0b671.chunk.js",
+    "static/js/2.bdc0b671.chunk.js.map": "/portfolio/static/js/2.bdc0b671.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f57903d1aebebfe65823c8d1489c36d6.js": "/portfolio/precache-manifest.f57903d1aebebfe65823c8d1489c36d6.js",
+    "precache-manifest.f2a1be4a9960fa201360a8a053861fca.js": "/portfolio/precache-manifest.f2a1be4a9960fa201360a8a053861fca.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.1309857c.chunk.css.map": "/portfolio/static/css/main.1309857c.chunk.css.map",
-    "static/js/2.a9679815.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a9679815.chunk.js.LICENSE.txt",
+    "static/css/main.1e6cab3d.chunk.css.map": "/portfolio/static/css/main.1e6cab3d.chunk.css.map",
+    "static/js/2.bdc0b671.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bdc0b671.chunk.js.LICENSE.txt",
     "static/media/chess-gif.gif": "/portfolio/static/media/chess-gif.755200a0.gif",
+    "static/media/james-resume.jpg": "/portfolio/static/media/james-resume.a4c78bc7.jpg",
     "static/media/pathfinding-gif.gif": "/portfolio/static/media/pathfinding-gif.9f73431b.gif",
     "static/media/profile-picture.jpg": "/portfolio/static/media/profile-picture.e9b46756.jpg",
     "static/media/sorting-gif.gif": "/portfolio/static/media/sorting-gif.63418999.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.a9679815.chunk.js",
-    "static/css/main.1309857c.chunk.css",
-    "static/js/main.a325ed2c.chunk.js"
+    "static/js/2.bdc0b671.chunk.js",
+    "static/css/main.1e6cab3d.chunk.css",
+    "static/js/main.70cdbe3c.chunk.js"
   ]
 }
