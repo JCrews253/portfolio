@@ -17,10 +17,10 @@ function App() {
       <div className="app">
         <Header/>
         <Switch>
-          <Route path="/about" component={About}/>
-          <Route path="/projects" component={Projects}/>
-          <Route path="/contact" component={Contact}/>
-          <Route path='/' component={About}/>
+          <Route path="/portfolio/about" component={About}/>
+          <Route path="/portfolio/projects" component={Projects}/>
+          <Route path="/portfolio/contact" component={Contact}/>
+          <Route path='/portfolio/' component={About}/>
         </Switch>
       </div>
     </Router>

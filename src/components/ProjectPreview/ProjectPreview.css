@@ -14,15 +14,16 @@
 
 .projectPreview__img--container{
     position: relative;
-    text-align: left;
+    text-align: center;
     background-color: black;
     transition: all 0.2s ease-in-out 0s;
 }
 
 .projectPreview__img{
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    max-width: 600px;
     margin-bottom: -7px;
+    
 }
 
 .projectPreview__img:hover{
@@ -33,9 +34,9 @@
 .projectPreview__img--description{
     overflow: wrap;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -20%);
     pointer-events: none;
     color: transparent;
     transition: all 0.2s ease-in-out 0s;
