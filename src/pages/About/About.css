@@ -1,14 +1,15 @@
-.about__profilePicture{
-    margin-top: 10px;
-    border-radius: 100%;
-    border: solid 3px #5E81AC;
-    max-width: 400px;
+.about__profilePicture {
+  margin-top: 10px;
+  border-radius: 100%;
+  border: solid 3px #5e81ac;
+  max-width: 400px;
+  width: auto;
 }
 
-.about > p{
-    font-size: 20pt;
-    color:#ECEFF4;
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
+.about > p {
+  font-size: 20pt;
+  color: #eceff4;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
