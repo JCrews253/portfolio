@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7d02e750.chunk.css",
-    "main.js": "/portfolio/static/js/main.52e0dce1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.52e0dce1.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1fd04a39.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1fd04a39.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.1eea9325.chunk.js": "/portfolio/static/js/2.1eea9325.chunk.js",
-    "static/js/2.1eea9325.chunk.js.map": "/portfolio/static/js/2.1eea9325.chunk.js.map",
+    "static/js/2.e7796470.chunk.js": "/portfolio/static/js/2.e7796470.chunk.js",
+    "static/js/2.e7796470.chunk.js.map": "/portfolio/static/js/2.e7796470.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.32c12b74a0e816006370c2f9d41b6957.js": "/portfolio/precache-manifest.32c12b74a0e816006370c2f9d41b6957.js",
+    "precache-manifest.dad0c2150745f6fe7ffaaaeb76546760.js": "/portfolio/precache-manifest.dad0c2150745f6fe7ffaaaeb76546760.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.7d02e750.chunk.css.map": "/portfolio/static/css/main.7d02e750.chunk.css.map",
-    "static/js/2.1eea9325.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1eea9325.chunk.js.LICENSE.txt",
+    "static/js/2.e7796470.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e7796470.chunk.js.LICENSE.txt",
     "static/media/chess-gif.gif": "/portfolio/static/media/chess-gif.755200a0.gif",
     "static/media/pathfinding-gif.gif": "/portfolio/static/media/pathfinding-gif.9f73431b.gif",
     "static/media/sorting-gif.gif": "/portfolio/static/media/sorting-gif.9f748131.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.1eea9325.chunk.js",
+    "static/js/2.e7796470.chunk.js",
     "static/css/main.7d02e750.chunk.css",
-    "static/js/main.52e0dce1.chunk.js"
+    "static/js/main.1fd04a39.chunk.js"
   ]
 }
