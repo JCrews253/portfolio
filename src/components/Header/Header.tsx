@@ -12,7 +12,7 @@ const Header = () => {
                     textDecoration: 'none'
                 }}
                 onClick={() => setTab('/about')}> 
-                <h1>James R Crews</h1>
+                <h1>James R. Crews</h1>
             </Link>
             <div className='header__tabs'>
                 <Link to='/about' style={{
