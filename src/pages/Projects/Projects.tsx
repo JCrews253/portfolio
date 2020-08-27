@@ -9,7 +9,7 @@ import chess from '../../images/chess.png'
 import chessGif from '../../images/chess-gif.gif'
 
 const Projects = () => {
-    return(
+    return( 
         <div className='projects'>
             <ProjectPreview {...{ 
                 title: 'Sorting Visualization',

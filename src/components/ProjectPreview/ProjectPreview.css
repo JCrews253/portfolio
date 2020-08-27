@@ -1,13 +1,16 @@
 .projectPreview{
     max-width: 600px;
-    color: aqua;
+    color: #ECEFF4;
     font-size: 20pt;
     display: flex;
     flex-direction: column;
     margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .projectPreview__title{
-    background-color: black;
+    background-color: #3B4252
+    ;
     margin: 0px;
     padding: 10px;
 }
@@ -15,7 +18,7 @@
 .projectPreview__img--container{
     position: relative;
     text-align: center;
-    background-color: black;
+    background-color: #3B4252;
     transition: all 0.2s ease-in-out 0s;
 }
 
@@ -43,5 +46,5 @@
 }
 
 .projectPreview__img:hover + .projectPreview__img--description{
-    color: white
+    color: #ECEFF4
 }
