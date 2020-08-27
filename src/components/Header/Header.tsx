@@ -8,13 +8,13 @@ const Header = () => {
 
     return(
         <div className='header'>
-            <Link to='/about' style={{
+            <Link to='/portfolio/about' style={{
                     textDecoration: 'none'
                 }}> 
                 <h1 onClick={() => setTab('About')}>James R Crews</h1>
             </Link>
             <div className='header__tabs'>
-                <Link to='/about' style={{
+                <Link to='/portfolio/about' style={{
                     textDecoration: 'none'
                 }}> 
                     <div className={['header__tabs--tab', 
@@ -24,7 +24,7 @@ const Header = () => {
                         <h1>About</h1>
                     </div>
                 </Link>
-                <Link to='/projects' style={{
+                <Link to='/portfolio/projects' style={{
                     textDecoration: 'none'
                 }}>
                     <div className={['header__tabs--tab', 
@@ -34,7 +34,7 @@ const Header = () => {
                         <h1>Projects</h1>
                     </div>
                 </Link>
-                <Link to='/contact' style={{
+                <Link to='/portfolio/contact' style={{
                     textDecoration: 'none'
                 }}>
                     <div className={['header__tabs--tab', 
