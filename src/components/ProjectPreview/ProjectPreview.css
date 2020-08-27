@@ -9,8 +9,7 @@
     overflow: hidden;
 }
 .projectPreview__title{
-    background-color: #3B4252
-    ;
+    background-color: #3B4252;
     margin: 0px;
     padding: 10px;
 }
@@ -26,12 +25,11 @@
     width: 100%;
     max-width: 600px;
     margin-bottom: -7px;
-    
 }
 
 .projectPreview__img:hover{
     cursor: pointer;
-    opacity: 40%;
+    opacity: 50%;
 }
 
 .projectPreview__img--description{
