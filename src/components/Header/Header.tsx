@@ -1,46 +1,49 @@
 import React, { useState } from 'react'
 import './Header.css'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Header = () => {
-
-    const[tab,setTab] = useState('About')
+    const location = useLocation()
+    const[tab,setTab] = useState(location.pathname)
 
     return(
         <div className='header'>
-            <Link to='/portfolio/about' style={{
+            <Link to='/about' style={{
                     textDecoration: 'none'
-                }}> 
-                <h1 onClick={() => setTab('About')}>James R Crews</h1>
+                }}
+                onClick={() => setTab('/about')}> 
+                <h1>James R Crews</h1>
             </Link>
             <div className='header__tabs'>
-                <Link to='/portfolio/about' style={{
-                    textDecoration: 'none'
-                }}> 
+                <Link to='/about' style={{
+                        textDecoration: 'none'
+                    }}
+                    onClick={() => setTab('/about')}> 
                     <div className={['header__tabs--tab', 
-                        `${tab === 'About' ? 'header__tabs--active' : ''}`
-                        ].join(' ')}
-                        onClick={() => setTab('About')}>
+                        `${tab === '/about' ? 'header__tabs--active' : ''}`
+                        ].join(' ')}>
                         <h1>About</h1>
                     </div>
                 </Link>
-                <Link to='/portfolio/projects' style={{
-                    textDecoration: 'none'
-                }}>
+                <Link to='/projects' style={{
+                        textDecoration: 'none'
+                    }}
+                    onClick={() => setTab('/projects')}>
                     <div className={['header__tabs--tab', 
-                        `${tab === 'Projects' ? 'header__tabs--active' : ''}`
+                        `${tab === '/projects' ? 'header__tabs--active' : ''}`
                         ].join(' ')}
-                        onClick={() => setTab('Projects')}>
+                        >
                         <h1>Projects</h1>
                     </div>
                 </Link>
-                <Link to='/portfolio/contact' style={{
-                    textDecoration: 'none'
-                }}>
+                <Link to='/contact' style={{
+                        textDecoration: 'none'
+                    }}
+                    onClick={() => setTab('/contact')}>
                     <div className={['header__tabs--tab', 
-                        `${tab === 'Contact' ? 'header__tabs--active' : ''}`
+                        `${tab === '/contact' ? 'header__tabs--active' : ''}`
                         ].join(' ')}
-                        onClick={() => setTab('Contact')}>
+                        >
                         <h1>Contact</h1>
                     </div>
                 </Link>

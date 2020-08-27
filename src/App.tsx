@@ -5,7 +5,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  HashRouter
 } from "react-router-dom";
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
@@ -13,17 +14,17 @@ import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="app">
         <Header/>
         <Switch>
-          <Route path="/portfolio/about" component={About}/>
-          <Route path="/portfolio/projects" component={Projects}/>
-          <Route path="/portfolio/contact" component={Contact}/>
-          <Route path='/portfolio/' component={About}/>
+          <Route path="/about" component={About}/>
+          <Route path="/projects" component={Projects}/>
+          <Route path="/contact" component={Contact}/>
+          <Route path='/' component={About}/>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
