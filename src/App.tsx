@@ -11,7 +11,6 @@ import {
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
-import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
           <Route path="/contact" component={Contact}/>
           <Route path='/' component={About}/>
         </Switch>
-        <Footer/>
       </div>
     </HashRouter>
   );
