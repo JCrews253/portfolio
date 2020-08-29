@@ -12,8 +12,7 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #2e3440;
-  background-image: linear-gradient(#2e3440, #3b4252);
+  background-image: linear-gradient(#292e39, #292e39, #3b4252);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
