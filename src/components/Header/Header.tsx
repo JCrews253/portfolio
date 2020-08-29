@@ -15,7 +15,7 @@ const Header = () => {
         }}
         onClick={() => setTab("/about")}
       >
-        <h1>{'James R. Crews'}</h1>
+        <p className="header__title">{"James R. Crews"}</p>
       </Link>
       <div className="header__tabs">
         <Link
@@ -33,7 +33,7 @@ const Header = () => {
               }`,
             ].join(" ")}
           >
-            <h1>About</h1>
+            <p>About</p>
           </div>
         </Link>
         <Link
@@ -49,7 +49,7 @@ const Header = () => {
               `${tab === "/projects" ? "header__tabs--active" : ""}`,
             ].join(" ")}
           >
-            <h1>Projects</h1>
+            <p>Projects</p>
           </div>
         </Link>
         <Link
@@ -65,7 +65,7 @@ const Header = () => {
               `${tab === "/contact" ? "header__tabs--active" : ""}`,
             ].join(" ")}
           >
-            <h1>Contact</h1>
+            <p>Contact</p>
           </div>
         </Link>
       </div>
