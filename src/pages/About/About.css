@@ -7,10 +7,13 @@
 .about__profilePicture {
   margin-top: 10px;
   border-radius: 100%;
-  border: solid 3px #5e81ac;
+  border: solid 2px #5e81ac;
   height: auto;
   width: 100%;
   max-width: 400px;
+  -webkit-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
 }
 
 .about > p {
